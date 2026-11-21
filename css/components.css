@@ -72,9 +72,6 @@ input[type="number"] {
     font-size: var(--font-size-xs);
     color: var(--color-secondary);
 }
-/* ========================================
-   COLOR PALETTE BUTTONS
-======================================== */
 
 .palette-options {
     display: flex;

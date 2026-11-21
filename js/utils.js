@@ -11,20 +11,13 @@ function mapRange(value, inputMin, inputMax, outputMin, outputMax) {
 function randomFromArray(array) {
     return array[Math.floor(Math.random() * array.length)];
 }
-// ========================================
-// HELPER FUNCTIONS
-// ========================================
 
-
-// Keeps a number within a certain range
 function clamp(value, min, max) {
 
     return Math.max(min, Math.min(max, value));
 
 }
 
-
-// Converts a number from one range to another
 function mapRange(value, inputMin, inputMax, outputMin, outputMax) {
 
     return outputMin +
@@ -33,8 +26,6 @@ function mapRange(value, inputMin, inputMax, outputMin, outputMax) {
 
 }
 
-
-// Picks one random item from a list
 function randomFromArray(array) {
 
     const index = Math.floor(Math.random() * array.length);
@@ -43,8 +34,6 @@ function randomFromArray(array) {
 
 }
 
-
-// Creates a random number between two numbers
 function randomNumber(min, max) {
 
     return Math.random() * (max - min) + min;

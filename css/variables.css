@@ -1,5 +1,4 @@
 :root {
-    /* Colors */
     --color-background: #171717;
     --color-panel: #202020;
     --color-surface: #292929;
@@ -10,7 +9,7 @@
 
     --color-border: #383838;
 
-    /* Typography */
+    
     --font-primary: Arial, Helvetica, sans-serif;
 
     --font-size-xs: 0.75rem;
@@ -19,17 +18,17 @@
     --font-size-lg: 1.25rem;
     --font-size-xl: 2rem;
 
-    /* Spacing */
+   
     --spacing-xs: 0.5rem;
     --spacing-sm: 1rem;
     --spacing-md: 1.5rem;
     --spacing-lg: 2rem;
     --spacing-xl: 3rem;
 
-    /* Layout */
+   
     --panel-width: 280px;
 
-    /* Borders */
+   
     --border-radius-sm: 4px;
     --border-radius-md: 8px;
 }
